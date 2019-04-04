@@ -4,7 +4,8 @@ package sistema;
 import java.util.Scanner;
 
 
-public class Sistema {public static void main(String[] args) {
+public class Sistema {
+    public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Escolha [1] para professor e [2] para aluno:");
         int opcao = s.nextInt();
@@ -26,7 +27,7 @@ public class Sistema {public static void main(String[] args) {
             a.anoIngresso = AnoDeIngresso(a,s);
             a.ehFormado = false;
         }
-        //drt
+     
         
     }
     
