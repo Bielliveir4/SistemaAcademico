@@ -49,9 +49,9 @@ public class Curso {
         return disciplinas;
     }
 
-//    public void setDisciplinas(Disciplina[] disciplinas) {
-        //this.setDisciplinas(disciplinas);
-  //}
+    public void setDisciplinas(Disciplina[] disciplinas) {
+       this.setDisciplinas(disciplinas);
+  }
 
     public Curso(String nome, String ppc, sistema.Disciplina[] disciplinas) {
         this.nome = nome;
@@ -64,9 +64,5 @@ public class Curso {
         this.ppc = ppc;
     }
 
-    
-  //  public void setDisciplinas(Disciplina[] disciplinas) {
-      //  this.disciplinas = disciplinas;
-  //  }
     
 }

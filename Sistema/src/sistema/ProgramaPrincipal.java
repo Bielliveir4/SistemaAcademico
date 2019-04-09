@@ -40,16 +40,16 @@ public class ProgramaPrincipal {
     }
 
     private static void menu_alunos(String opcoes) throws IOException {
-        int opcao = menu("a1");
+        int opcao = menu(opcoes);
     }
 
     private static void menu_professor(String opcoes) throws IOException {
-        int opcao = menu("11");
+        int opcao = menu(opcoes);
 
     }
 
     private static void menu_ensino(String opcoes) throws IOException {
-        int opcao = menu("22");
+        int opcao = menu(opcoes);
 
     }
 }
