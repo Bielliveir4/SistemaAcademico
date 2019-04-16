@@ -46,7 +46,7 @@ public class Sistema {
         p.areas = new String[quantAreas];
         System.out.println("Informe as áreas:");
             for (int i = 0; i < quantAreas; i++) {
-                p.areas[i] = s.nextLine();}
+                p.getAreas[i] = s.nextLine();}
         return p.areas;
         
     

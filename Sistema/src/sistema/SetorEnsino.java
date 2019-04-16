@@ -6,6 +6,11 @@ import sistema.Professor;
 
 public class SetorEnsino {
 
+    static void verCursos() {
+        
+        
+    }
+
     private Curso cursos[];
     private Professor professores[];
     private String diretor;
